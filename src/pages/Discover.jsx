@@ -9,7 +9,6 @@ const Discover = () => {
   const dispatch = useDispatch();
   const { activeSong, isPlaying } = useSelector((state) => state.player);
 
-  console.log(data);
   const genreTitle = "Pop";
 
   if (isFetching) return <Loader title="Loading songs..." />;
