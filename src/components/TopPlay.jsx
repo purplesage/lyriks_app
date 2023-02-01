@@ -33,9 +33,9 @@ const TopChartCard = ({
 					<Link to={`/songs/${song.key}`}>
 						<p className="text-md font-bold text-white">{song?.title}</p>
 					</Link>
-					<Link to={`/artists/${song.artists[0].adamid}`}>
+					{/* <Link to={`/artists/${song.artists[0].adamid}`}>
 						<p className="text-base text-gray-300 mt-1">{song?.subtitle}</p>
-					</Link>
+					</Link> */}
 				</div>
 			</div>
 			<PlayPause
@@ -104,7 +104,7 @@ const TopPlay = () => {
 					</Link>
 				</div>
 
-				<Swiper
+				{/* <Swiper
 					slidesPerView="auto"
 					spaceBetween={15}
 					freeMode
@@ -128,7 +128,7 @@ const TopPlay = () => {
 							</Link>
 						</SwiperSlide>
 					))}
-				</Swiper>
+				</Swiper> */}
 			</div>
 		</div>
 	);
