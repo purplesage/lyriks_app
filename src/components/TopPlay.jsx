@@ -19,7 +19,9 @@ const TopChartCard = ({
 	handlePauseClick,
 	handlePlayClick,
 }) => {
-	console.log(song);
+	/* if (song.artists[0].adamid) {
+		console.log(song.artists[0].adamid);
+	} */
 	return (
 		<div className="w-full flex flex-row items-center hover:bg-[#4C426E] py-2 p-4 rounded-lg cursor-pointer mb-2">
 			<h3 className="font-bold text-base text-white mr-3">{i + 1}</h3>
